@@ -32,3 +32,6 @@ src/assets/local/
 # Personal copy and private notes (local only; the site copy lives in the code)
 content/about.md
 content/about-me-for-ai.md
+
+# AI assistant notes stay local
+CLAUDE.md

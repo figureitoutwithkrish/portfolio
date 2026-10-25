@@ -20,7 +20,7 @@ npm run build     # production build -> dist/
 npm run preview   # serve the production build
 ```
 
-How it's put together: [`CLAUDE.md`](CLAUDE.md) (structure and conventions), [`design-system/`](design-system/) (the design rules, page by page), [`docs-backend.md`](docs-backend.md) (the functions and the database).
+How it's put together: [`design-system/`](design-system/) (the design rules, page by page) and [`docs-backend.md`](docs-backend.md) (the functions and the database).
 
 ## Credits
 
