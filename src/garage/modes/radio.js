@@ -4,7 +4,7 @@ export const ROWS = [
   { label: 'cv', value: 'one page · pdf', href: '/assets/cv/krish-viramgama-cv.pdf', download: true },
   { label: 'email', value: 'krishviramgamatir@gmail.com', href: 'mailto:krishviramgamatir@gmail.com' },
   { label: 'linkedin', value: 'krish viramgama', href: 'https://www.linkedin.com/in/krish-viramgama-27951927a/' },
-  { label: 'github', value: 'figureitoutkrish', href: 'https://github.com/figureitoutkrish' },
+  { label: 'github', value: 'figureitoutwithkrish', href: 'https://github.com/figureitoutwithkrish' },
   { label: 'instagram', value: '@figureitoutwithkrish', href: 'https://www.instagram.com/figureitoutwithkrish/' },
 ];
 

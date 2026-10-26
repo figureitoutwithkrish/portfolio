@@ -12,7 +12,7 @@
 //            public/assets/audio/radio-check/<id>-raw.m4a + <id>-model.m4a and raw / model are the
 //            clip's SNR in dB before and after; checkNote credits the audio
 // Drafted from the GitHub READMEs; the `learned` lines are drafts in Krish's voice: fix anything off.
-const GH = 'https://github.com/figureitoutkrish/';
+const GH = 'https://github.com/figureitoutwithkrish/';
 
 export const PROJECTS = [
   {

@@ -6,7 +6,7 @@
 // Cached on Vercel's edge for 30 minutes (and served stale for a day while it refreshes), so GitHub
 // is asked at most every half hour whoever is visiting. GITHUB_TOKEN, if set, raises GitHub's
 // rate limit for the commit search.
-const USER = 'figureitoutkrish';
+const USER = 'figureitoutwithkrish';
 
 export function createGithubHandler(fetchImpl = fetch) {
   return async function handler(req, res) {

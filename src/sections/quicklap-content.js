@@ -1,6 +1,6 @@
 // What the quick lap (quicklap.js) says on each alter-ego page: the 60-second version for people
 // short on time (recruiters, clients). Copy comes from content/about.md and the projects data.
-const GH = 'https://github.com/figureitoutkrish/';
+const GH = 'https://github.com/figureitoutwithkrish/';
 const EMAIL = 'krishviramgamatir@gmail.com';
 const CV = '/assets/cv/krish-viramgama-cv.pdf';
 
@@ -21,7 +21,7 @@ export const QUICKLAP = {
     primary: { label: 'download my cv', href: CV, download: true },
     secondary: [
       ['email', `mailto:${EMAIL}`],
-      ['github', 'https://github.com/figureitoutkrish'],
+      ['github', 'https://github.com/figureitoutwithkrish'],
       ['linkedin', 'https://www.linkedin.com/in/krish-viramgama-27951927a/'],
     ],
     longWay: 'or take the long way: the garage',

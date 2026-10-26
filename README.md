@@ -47,7 +47,7 @@ One person, two alter egos, and you pick which one to meet: drive an F1 car into
 - **A 3D garage in the browser.** Three.js scene with a drivable car, a walkable garage and stations you can use. The car is a CC BY concept model, converted, simplified and repainted by [`scripts/concept-to-glb.mjs`](scripts/concept-to-glb.mjs).
 - **A neural network with no library.** LAB trains a small network from scratch, in the browser, on the lap you just drove.
 - **Shared, live state.** Vercel functions with Redis power the game leaderboard, the sticky notes, the pit-board guestbook and the GitHub activity monitor ([`api/`](api/)).
-- **Escapes in-app browsers.** Open the site from Instagram, TikTok or Facebook and it hands you to Safari or Chrome, where everything works (an idea from my [unlock](https://github.com/figureitoutkrish/unlock) project).
+- **Escapes in-app browsers.** Open the site from Instagram, TikTok or Facebook and it hands you to Safari or Chrome, where everything works (an idea from my [unlock](https://github.com/figureitoutwithkrish/unlock) project).
 - **Works on phones.** Steer buttons and a swipe-proof cockpit for the drive, and a joystick to walk the garage.
 - **Respects your settings.** Reduced-motion users get still frames instead of animation, and the content stays readable without JavaScript.
 

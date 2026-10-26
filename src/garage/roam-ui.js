@@ -305,7 +305,7 @@ export function initRoam({ garage, cockpit, reducedMotion, onGetIn, onDrive }) {
     },
     github() {
       if (!github) {
-        body.innerHTML = `<div class="roam-info"><h2 class="f1-info__t" id="roam-title">commits</h2><p>${github === null ? 'no signal from github right now. it usually comes back in a minute.' : 'tuning in…'}</p><p class="p-links"><a class="roam-btn" href="https://github.com/figureitoutkrish" target="_blank" rel="noopener">open my github ↗</a></p></div>`;
+        body.innerHTML = `<div class="roam-info"><h2 class="f1-info__t" id="roam-title">commits</h2><p>${github === null ? 'no signal from github right now. it usually comes back in a minute.' : 'tuning in…'}</p><p class="p-links"><a class="roam-btn" href="https://github.com/figureitoutwithkrish" target="_blank" rel="noopener">open my github ↗</a></p></div>`;
         prompts.innerHTML = prompt([['esc', 'back']]);
         return;
       }
@@ -314,7 +314,7 @@ export function initRoam({ garage, cockpit, reducedMotion, onGetIn, onDrive }) {
       const offset = new Date(days[0].date).getUTCDay();
       const cells = [...Array(offset).fill('<i class="gh-cell gh-pad"></i>'), ...days.map((d, i) => `<i class="gh-cell" data-l="${Math.min(4, d.level)}"${i === days.length - 1 ? ' data-today' : ''} title="${d.count} on ${new Date(d.date + 'T12:00').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}"></i>`)].join('');
       body.innerHTML = `<div class="gh">
-          <header class="gh-head"><h2 class="f1-info__t" id="roam-title">commits</h2><a class="roam-btn" href="https://github.com/figureitoutkrish" target="_blank" rel="noopener">open my github ↗</a></header>
+          <header class="gh-head"><h2 class="f1-info__t" id="roam-title">commits</h2><a class="roam-btn" href="https://github.com/figureitoutwithkrish" target="_blank" rel="noopener">open my github ↗</a></header>
           <div class="gh-cal" role="img" aria-label="${total} contributions in the last 12 months">${cells}</div>
           <div class="gh-stats"><div><b>${total}</b><span>last 12 months</span></div><div><b>${cur}</b><span>day streak</span></div><div><b>${best}</b><span>longest streak</span></div></div>
           <ul class="f1-rows gh-commits">${(commits || []).slice(0, 5).map((c) => `<li><a class="f1-row" href="${esc(c.url)}" target="_blank" rel="noopener"><span><b>${esc(c.repo)}</b> ${esc(c.message)}</span><span class="gh-when">${c.date ? agoDate(c.date) : ''}</span></a></li>`).join('')}</ul>
